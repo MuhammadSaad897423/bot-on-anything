@@ -8,7 +8,7 @@ on:
     tags:       # tag更新时触发此workflow
       - '*'
 
-jobs:
+jobs::
 
   push_to_registry:  
     name: Push Docker image to Docker Hub
